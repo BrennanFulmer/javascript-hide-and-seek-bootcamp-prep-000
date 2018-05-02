@@ -4,8 +4,8 @@ function getFirstSelector(selector) {
 
 function nestedTarget() {
   
-  var aim = document.querySelector('#nested .target');
-
+  document.querySelector('#nested .target');
+  return 
 }
 
 function increaseRankBy(n) {
