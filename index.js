@@ -18,5 +18,5 @@ function deepestChild() {
   let parent = Document.getElementById(`#grand-node`);
   let final = parent.length - 1;
   let youngest = parent[final];
-  return child;
+  return youngest;
 }
